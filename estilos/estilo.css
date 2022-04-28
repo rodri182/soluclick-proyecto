@@ -1,0 +1,559 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #f6f6f6;
+}
+
+.container
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:  1fr ;
+    grid-template-rows:  1fr ;
+    grid-template-areas: 
+    "icons"
+    
+    ;
+    
+}
+.gridhead
+{
+    grid-area: icons;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.iconos
+{
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+    align-items: center;
+    gap: 3rem;
+    font-size: 22px;
+
+}
+.logotipo
+{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.logo
+{
+    width: 28%;
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+nav ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: start;
+    margin-left: 50px;
+    align-items: flex-end;
+}
+
+    nav ul li {
+        list-style: none;
+        font-size: 23px;
+        font-weight: 400px;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(95, 91, 91);
+        }
+
+            nav ul li a:hover {
+                color: blueviolet;
+            }
+
+.indexactive {
+    color: rgb(161, 24, 74);
+}
+
+.banner {
+    padding: 20rem;
+    background-image: url(/imagenes/BANNER2.jpg);
+    margin: 40px 40px 0px 30px;
+}
+
+    .banner h1 {
+        text-align: center;
+        color: white;
+        font-size: 60px;
+        letter-spacing: 0.4rem;
+    }
+
+    .banner p {
+        text-align: center;
+        color: white;
+        margin: 30px 0px 50px 0px;
+        font-size: 19px;
+    }
+
+.nosotros {
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 80%;
+}
+
+.parrafo {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.fototexto {
+    width: 100%;
+}
+
+.fotogrande {
+    width: 30%;
+}
+
+.parrafo h1 {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.parrafo p {
+    color: rgb(78, 78, 78);
+    font-size: 20px;
+}
+
+.parrafo--reverse {
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+
+footer {
+    margin-top: 100px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+}
+
+    footer p {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #8c8b8b;
+    }
+
+    footer i {
+        font-size: 30px;
+        color: #8c8b8b;
+        letter-spacing: 30px;
+        margin-bottom: 10px;
+    }
+
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: #909090;
+    border: 5px solid #000000;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #7e7373;
+    color: aliceblue;
+}
+
+.boton {
+    height: 40px;
+    width: 40px;
+    padding: 1%;
+    background-color: blue;
+    border-radius: 60%;
+    box-shadow: 0 0 10px #7e7373;
+    color: aliceblue;
+    border: 5px solid blue;
+    margin-left: 545px;
+    text-decoration: none;
+}
+
+.formcontenedor {
+    margin: 100px 0px 0px 400px;
+    width: 50%;
+    padding: 1.5rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 13px 19px 8px 0px rgba(0,0,0,0.7);
+    background-image: url(/imagenes/stacked-waves-haikei.png);
+    background-size: cover;
+}
+
+.tituloform {
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+ 
+}
+
+.form {
+    text-align: center;
+}
+
+.label_form {
+    font-weight: 700;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.form_input, .form_textarea {
+    width: 60%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-bottom: solid 0.5rem #5c5a5a;
+    background: darkgrey;
+}
+
+.form_textarea {
+    resize: none;
+    height: 150px;
+}
+
+.form_input--submit {
+    background-color: #5c5a5a;
+    margin-top: 15px;
+}
+
+.programdownload {
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 80%;
+}
+
+#flecha {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+#h2tabla {
+    margin: 28px 40px;
+}
+
+.fotoprograma {
+    width: 80%;
+}
+
+.fotoprograma2 {
+    width: 75%;
+}
+
+.programdescription {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+    .programdescription h1 {
+        color: black;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .programdescription p {
+        color: rgb(78, 78, 78);
+        font-size: 20px;
+    }
+
+.tabla {
+    width: 50%;
+    height: 150px;
+    margin: 67px 0px 76px 150px;
+}
+
+.grid {
+    margin-top: 80px;
+    display: grid;
+    height: 800px;
+    width: 1300px;
+    margin-left: 150px;
+    align-content: center;
+}
+
+.grid-area-servicio {
+    grid-template-areas:
+        "serv1 serv1 serv2 serv3 serv4"
+        "serv1 serv1 serv2 serv3 serv4"
+        "serv1 serv1 serv5 serv6 serv4"
+        "serv1 serv1 serv5 serv6 serv4";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.item {
+    border: 2px solid black;
+    color: white;
+    font-weight: bold;
+}
+
+    .item h1 {
+        margin-top: 25px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+.serv1 {
+    grid-area: serv1;
+    background-image: url(/imagenes/servicio1.jpg);
+    box-shadow: 13px 19px 8px 0px rgba(0,0,0,0.7);
+    opacity: 0.9;
+    
+}
+
+ .serv1 h2
+  {
+   text-align: center;
+   font-size: 60px;
+ }
+
+.serv2 {
+    grid-area: serv2;
+    background-image: url(/imagenes/servicio\ 5.jpg);
+    box-shadow: 13px 19px 8px 0px rgba(0,0,0,0.7);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+.serv3 {
+    grid-area: serv3;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/imagenes/servicio\ 5.jpg);
+    box-shadow: 13px 19px 8px 0px rgba(0,0,0,0.7);
+    opacity: 0.9;
+}
+
+.serv4 {
+    grid-area: serv4;
+    background-image: url(/imagenes/servicio\ 6.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 13px 19px 8px 0px rgba(0,0,0,0.7);
+    opacity: 0.9;
+}
+
+.serv5 {
+    grid-area: serv5;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/imagenes/servicio4.jpg);
+    box-shadow: 13px 19px 8px 0px rgba(0,0,0,0.7);
+    opacity: 0.9;
+}
+
+.serv6 {
+    background-image: url(/imagenes/servicio4.jpg);
+    grid-area: serv6;
+    box-shadow: 13px 19px 8px 0px rgba(0,0,0,0.7);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+.puntoslistas
+{   
+    list-style: circle;
+    margin-left: 8px;
+    padding: 20%;
+    font-size: 20px;
+    margin-top: 10px;   
+}
+div ul li
+{
+    margin-bottom: 25px;
+}
+
+#mov1
+{
+    transition: width 2s;
+}
+#mov1:hover
+{
+width: 550px;
+height: 800px;
+
+}
+#mov4:hover
+{
+    width: 320px;
+    height: 800px;
+}
+#mov4
+{
+    transition: width 2.5s;
+}
+
+@media screen and (max-width: 767px) {
+    .logo {
+        width: 50%;
+        margin: 0px 0px 0px 70px;
+    }
+
+    .logotipo {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+    }
+        .logotipo p {
+            justify-content: center;
+            margin-top: 4px;
+            margin-left: 0px;
+            font-size: 50px;
+            color: blueviolet;
+            display: flex;
+        }
+
+    .iconos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -26px;
+        margin-top: 14px;
+        padding: 0px;
+    }
+        .iconos i {
+            margin-left: 30px;
+            font-size: 21px;
+            color: grey;
+        }
+
+    .logotipo p2 {
+        font-size: 18px;
+    }
+
+    .banner {
+        background-size: cover;
+        background-position: center center;
+        padding: 2rem;
+        background-image: url(/imagenes/BANNER2.jpg);
+        margin: 0px;
+    }
+
+        .banner h1 {
+            font-size: 36px;
+        }
+        .boton {
+            margin-left: 80px;
+        }
+
+    .parrafo {
+        flex-flow: column;
+    }
+    .parrafo--reverse {
+        margin-left: 0px;
+    }
+    .nosotros {
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        margin-top: 40px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .fotogrande {
+        width: 100%;
+    }
+    .grid {
+        margin-top: 0px;
+        display: block;
+        height: 800px;
+        width: 100%;
+        margin-left: 0px;
+        align-content: center;
+    }
+    .serv1 {
+        box-shadow: none;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .serv2 {
+        box-shadow: none;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .serv3 {
+        box-shadow: none;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .serv4 {
+        box-shadow: none;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .serv5 {
+        box-shadow: none;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .serv6 {
+        box-shadow: none;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .item ul {
+        text-align: center;
+    }
+    .item p {
+        text-align: center;
+    }
+    .no-flex {
+        display: grid;
+    }
+    nav ul {
+        display: flex;
+        gap: 2rem;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        margin-top: 35px;
+    }
+    .galeria-titulo {
+        display: flex;
+        justify-content: center;
+        margin: 0px !important;
+    }
+    .imagen-celular{
+        width: 100% !important;
+        margin: 0px !important;
+    }
+    .tabla {
+        font-size: 13px;
+        margin: 0px;
+    }
+    .programdownload {
+        margin-top: 40px;
+        margin-left: 0px !important;
+        width: 100%;
+    }
+    .programdescription {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+    .formcontenedor {
+        width: 90%;
+        margin: 0px;
+    }
+}
