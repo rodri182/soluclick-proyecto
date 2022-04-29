@@ -416,7 +416,18 @@ grid-template-areas:
 "cuadrado3 "
 ;
 }
+.contenedor p
+{
+    font-size: 30px;
+text-align: start;
+}
 
+.contenedor p2
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
 .cuadrado1
 {
     grid-area: cuadrado1;
@@ -441,6 +452,7 @@ grid-template-areas:
 .comen1
 {
     transform: rotate(-5deg);
+    width: 60%;
     padding: 2%;
 
 }
@@ -449,6 +461,14 @@ grid-template-areas:
     padding: 3%;
     width: 60%;
     transform: rotate(15deg);
+}
+.comen3
+{
+    padding: 3%;
+    width: 60%;
+    transform: rotate(
+-5deg
+);
 }
 @media screen and (max-width: 767px) {
     .logo {
