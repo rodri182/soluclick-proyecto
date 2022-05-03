@@ -79,7 +79,7 @@ nav ul {
 
 .banner {
     padding: 20rem;
-    background-image: url(/imagenes/BANNER2.jpg);
+    background-image: url(../imagenes/BANNER2.jpg);
     margin: 40px 40px 0px 30px;
 }
 
@@ -188,7 +188,7 @@ footer {
     padding: 1.5rem 1rem;
     border-radius: 1rem;
     box-shadow: 13px 19px 8px 0px rgba(0,0,0,0.7);
-    background-image: url(/imagenes/stacked-waves-haikei.png);
+    background-image: url(../imagenes/stacked-waves-haikei.png);
     background-size: cover;
 }
 
@@ -312,7 +312,7 @@ footer {
 
 .serv1 {
     grid-area: serv1;
-    background-image: url(/imagenes/servicio1.jpg);
+    background-image: url(../imagenes/servicio1.jpg);
     box-shadow: 13px 19px 8px 0px rgba(0,0,0,0.7);
     opacity: 0.9;
     
@@ -326,7 +326,7 @@ footer {
 
 .serv2 {
     grid-area: serv2;
-    background-image: url(/imagenes/servicio\ 5.jpg);
+    background-image: url(../imagenes/servicio\ 5.jpg);
     box-shadow: 13px 19px 8px 0px rgba(0,0,0,0.7);
     background-size: cover;
     background-position: center;
@@ -337,14 +337,14 @@ footer {
     grid-area: serv3;
     background-size: cover;
     background-position: center;
-    background-image: url(/imagenes/servicio\ 5.jpg);
+    background-image: url(../imagenes/servicio\ 5.jpg);
     box-shadow: 13px 19px 8px 0px rgba(0,0,0,0.7);
     opacity: 0.9;
 }
 
 .serv4 {
     grid-area: serv4;
-    background-image: url(/imagenes/servicio\ 6.jpg);
+    background-image: url(../imagenes/servicio\ 6.jpg);
     background-size: cover;
     background-position: center;
     box-shadow: 13px 19px 8px 0px rgba(0,0,0,0.7);
@@ -355,13 +355,13 @@ footer {
     grid-area: serv5;
     background-size: cover;
     background-position: center;
-    background-image: url(/imagenes/servicio4.jpg);
+    background-image: url(../imagenes/servicio4.jpg);
     box-shadow: 13px 19px 8px 0px rgba(0,0,0,0.7);
     opacity: 0.9;
 }
 
 .serv6 {
-    background-image: url(/imagenes/servicio4.jpg);
+    background-image: url(../imagenes/servicio4.jpg);
     grid-area: serv6;
     box-shadow: 13px 19px 8px 0px rgba(0,0,0,0.7);
     background-size: cover;
@@ -384,13 +384,15 @@ div ul li
 
 #mov1
 {
-    transition: width 2s;
+-webkit-transition: width 3s ease-in-out;
+-moz-transition: width 3s ease-in-out;
+-o-transition: width 3s ease-in-out;
+transition: width 3s ease-in-out;
 }
 #mov1:hover
 {
 width: 550px;
 height: 800px;
-
 }
 #mov4:hover
 {
@@ -466,10 +468,9 @@ text-align: start;
 {
     padding: 3%;
     width: 60%;
-    transform: rotate(
--5deg
-);
+    transform: rotate(-5deg);
 }
+
 @media screen and (max-width: 767px) {
     .logo {
         width: 50%;
@@ -512,7 +513,7 @@ text-align: start;
         background-size: cover;
         background-position: center center;
         padding: 2rem;
-        background-image: url(/imagenes/BANNER2.jpg);
+        background-image: url(../imagenes/BANNER2.jpg);
         margin: 0px;
     }
 
