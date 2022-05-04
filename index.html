@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilos/estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -13,7 +14,7 @@
 </head>
 
 <body>
-    <header class="container">
+    <header class="container-fluid">
         <div class="gridhead">
         <div class="logotipo">
             <img src="./imagenes/soluclick1.jpg" alt="logosoluclick" class="logo">
@@ -46,32 +47,45 @@
             </div>
 
         </section>
-        <section class="nosotros">
+  
+        <div class="conteiner-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row" style="padding: 50px 100px 30px 100px;">
+                        <div class="col-4">
+                            <img src="./imagenes/grupo trabajando.jpg" alt="grupolaboral" style="width: 80%;" >
+                        </div>
+                        <div class="col-8 d-flex justify-content-center flex-column">
+                            <h1>Nuestro objetivo </h1>
+                            <p style="font-size: 20px;">
+                                En soluclick nos encargamos del cuidado y arreglo de su ordenador, para que pueda tener la mejor
+                                experiencia posible, estamos trabajando hace mas de 2 años con ustedes
+                        </div>
 
-            <div class="parrafo">
-                <div>
-                    <img src="./imagenes/grupo trabajando.jpg" alt="grupolaboral" class="fototexto">
-                </div>
-                <div>
-                    <h1>Nuestro objetivo </h1>
-                    <p>
-                        En soluclick nos encargamos del cuidado y arreglo de su ordenador, para que pueda tener la mejor
-                        experiencia posible, estamos trabajando hace mas de 2 años con ustedes
-                    </p>
+                    </div>
                 </div>
             </div>
-            <div class="parrafo parrafo--reverse">
-                <img src="./imagenes/imagen trabajando.jpg" alt="grupolaboraljuntos" class="fotogrande">
-                <div>
-                    <h1>Nuestros trabajadores</h1>
-                    <p>
-                        somos mas de 10 analistas trabajando en esta empresa, procurando
-                        siempre estar al servicio y cuidado de su ordeador
-                    </p>
-                </div>
+        </div>
+        <div class="conteiner-fluid">
+            <div class="row" >
+                <div class="col-md-12">
+                    <div class="row" style="padding: 0px 100px 100px 100px;" >
+                         <div class="col-8 d-flex justify-content-center flex-column" >
+                            <h1>Nuestro objetivo </h1>
+                            <p style="font-size: 20px;">
+                                En soluclick nos encargamos del cuidado y arreglo de su ordenador, para que pueda tener la mejor
+                                experiencia posible, estamos trabajando hace mas de 2 años con ustedes
+                        </div>
+                        <div class="col-4">
+                            <img src="./imagenes/imagen trabajando.jpg" alt="grupolaboral" style="width: 80%;">
+                        </div>
+                       
 
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
+
 
         <a href="#" class="subir"><i class="fa-solid fa-arrow-up"></i></a>
     </main>
@@ -83,6 +97,9 @@
         <i class="fa-brands fa-whatsapp"></i>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 </body>
 
 </html>
