@@ -7,19 +7,15 @@ html {
     background-color: #f6f6f6;
 }
 
-.container
+
+.container-fluid
 {
-    display: grid;
-    justify-content: center;
-    grid-template-columns:  1fr ;
-    grid-template-rows:  1fr ;
-    grid-template-areas: 
-    "icons"
-    
-    ;
-    
+    padding-right: 30px;
+    padding-left: 30px;
+   
 }
-.gridhead
+
+.gridhead 
 {
     grid-area: icons;
     display: grid;
@@ -27,6 +23,7 @@ html {
 }
 .iconos
 {
+   
     display: flex;
     justify-content: end;
     margin-right: 80px;
@@ -53,8 +50,8 @@ html {
 nav ul {
     display: flex;
     gap: 2rem;
-    justify-content: start;
-    margin-left: 50px;
+    justify-content: start ;
+    margin-left: 50px ;
     align-items: flex-end;
 }
 
