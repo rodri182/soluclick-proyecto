@@ -3,11 +3,36 @@
     margin: 0;
     padding: 0;
 }
-html {
-    background-color: #f6f6f6;
+body {
+    background-color: #f6f6f6!important;
 }
 
 
+.botonbanner
+{
+    margin-top: 50px!important;
+}
+.carousel-inner img
+ {
+  width: 2000px;
+  max-height: 800px;
+  padding-right: 126px;
+  padding-left: 32px;
+}
+
+.carousel-caption 
+{
+    bottom: 350px;
+    
+}
+.carousel-caption h3
+{
+    font-size: 40px;
+}
+.carousel-caption p
+{
+    font-size: 20px;
+}
 .container-fluid
 {
     padding-right: 30px;
@@ -440,6 +465,11 @@ text-align: start;
     display: grid;
     grid-template-columns: 1fr 1fr;
     
+}
+
+.container-xl
+{
+margin-top: 150px;
 }
 .cuadrado3
 {
