@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-    <div style="background-color: blueviolet;"></div>
+    
       
 <head>
     <meta charset="UTF-8">
@@ -15,42 +15,84 @@
 </head>
 
 <body>
-    
-        <header class="back">
-            <a href="./index.html"><i class="fa-solid fa-arrow-left" id="flecha"></i></a>
-        </header>
-    
-        <section class="formcontenedor">
-
-        <h2 class="tituloform">Contactenos</h2>
-
-        <form action="text.php" method="POST" enctype="text/plain" class="form">
-            <label for="nombre" class="label_form">nombre</label>
-            <input type="text" name="nombre" placeholder="ingrese su nombre" class="form_input">
-            <label for="apellido" class="label_form">apellido</label>
-            <input type="text" name="apellido" placeholder="ingrese su apellido" class="form_input">
-            <label for="telefono" class="label_form">telofono</label>
-            <input type="number" name="telefono" placeholder="ingrese su telefono" class="form_input">
-            <label for="mail" class="label_form">mail</label>
-            <input type="email" name="mail" placeholder="ingrese su mail" class="form_input">
-            <label for="direccion" class="label_form">direccion</label>
-            <input type="text" name="direccion" placeholder="ingrese su direccion" class="form_input">
-            <label for="textarea" class="label_form">mensaje</label>
-            <textarea name=comentarios id=comentarios cols=30 rows=5 placeholder="ingrese su problema" class=form_textarea
-            ></textarea>
-             <br>
-             <br>
-              <input type="submit" class="form_input form_input--submit">
-
-     
-                </select>
-            </form>
+    <header class="back">
+        <a href="./index.html"><i class="fa-solid fa-arrow-left" id="flecha"></i></a>
+    </header>
+    <div class="container-xl">
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="white-box">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-6 col-md-8 col-sm-10 ">
+                            <h3>Contatenos</h3>
+                            
+                            <p class="text-muted">Ingrese sus datos </p>
+                            
+                            <form class="" action=".">
+                                
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label class="control-label">Nombre y Apellido</label>
+                                            <input type="text" class="form-control" maxlength="128" required="required">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+                                            <label class="control-label">Número de documento</label>
+                                            <input type="text" class="form-control" maxlength="16" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="form-group">
+                                            <label class="control-label">Celular</label>
+                                            <input type="text" class="form-control" maxlength="64" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="form-group">
+                                            <label class="control-label">Fecha de Nacimiento</label>
+                                            <input type="date" class="form-control" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="form-group">
+                                            <label class="control-label">Correo</label>
+                                            <input type="email" class="form-control" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="form-group">
+                                            <label class="control-label">Clave</label>
+                                            <input type="text" class="form-control" placeholder="Escriba para cambiar la clave...">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+                                            <label class="control-label">Domicilio</label>
+                                            <input type="text" class="form-control" maxlength="64" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Código postal</label>
+                                            <input type="text" class="form-control" maxlength="64">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mt-20">
+                                    <div class="row">
+                                        <button class="btn btn-comprar btn-block">
+                                            Guardar
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-       
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-</body>
-
+    </div>
 </html>
