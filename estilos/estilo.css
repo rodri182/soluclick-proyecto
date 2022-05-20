@@ -47,6 +47,9 @@ body {
   gap: 3rem;
   font-size: 22px;
 }
+.iconos a {
+  color: black;
+}
 
 .logotipo {
   display: flex;
@@ -196,120 +199,6 @@ footer i {
   margin: 67px 0px 76px 150px;
 }
 
-.grid {
-  margin-top: 80px;
-  display: grid;
-  height: 800px;
-  width: 1300px;
-  margin-left: 150px;
-  align-content: center;
-}
-
-.grid-area-servicio {
-  grid-template-areas: "serv1 serv1 serv2 serv3 serv4" "serv1 serv1 serv2 serv3 serv4" "serv1 serv1 serv5 serv6 serv4" "serv1 serv1 serv5 serv6 serv4";
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 2rem;
-}
-
-.item {
-  border: 2px solid black;
-  color: white;
-  font-weight: bold;
-}
-.item h1 {
-  font-weight: 800;
-  margin-top: 25px;
-  font-size: 30px;
-  text-align: center;
-}
-
-.serv1 {
-  grid-area: serv1;
-  background-image: url(../imagenes/servicio1.jpg);
-  box-shadow: 13px 19px 8px 0px rgba(0, 0, 0, 0.7);
-  opacity: 0.9;
-}
-.serv1 h2 {
-  text-align: center;
-  font-size: 60px;
-}
-
-.serv2 {
-  grid-area: serv2;
-  background-image: url(../imagenes/servicio\ 5.jpg);
-  box-shadow: 13px 19px 8px 0px rgba(0, 0, 0, 0.7);
-  background-size: cover;
-  background-position: center;
-  opacity: 0.9;
-}
-
-.serv3 {
-  grid-area: serv3;
-  background-size: cover;
-  background-position: center;
-  background-image: url(../imagenes/servicio\ 5.jpg);
-  box-shadow: 13px 19px 8px 0px rgba(0, 0, 0, 0.7);
-  opacity: 0.9;
-}
-
-.serv4 {
-  grid-area: serv4;
-  background-image: url(../imagenes/servicio\ 6.jpg);
-  background-size: cover;
-  background-position: center;
-  box-shadow: 13px 19px 8px 0px rgba(0, 0, 0, 0.7);
-  opacity: 0.9;
-}
-
-.serv5 {
-  grid-area: serv5;
-  background-size: cover;
-  background-position: center;
-  background-image: url(../imagenes/servicio4.jpg);
-  box-shadow: 13px 19px 8px 0px rgba(0, 0, 0, 0.7);
-  opacity: 0.9;
-}
-
-.serv6 {
-  background-image: url(../imagenes/servicio4.jpg);
-  grid-area: serv6;
-  box-shadow: 13px 19px 8px 0px rgba(0, 0, 0, 0.7);
-  background-size: cover;
-  background-position: center;
-  opacity: 0.9;
-}
-
-.puntoslistas {
-  padding: 20%;
-  font-size: 20px;
-}
-
-div ul li {
-  margin-bottom: 25px;
-}
-
-#mov1 {
-  -webkit-transition: width 3s ease-in-out;
-  -moz-transition: width 3s ease-in-out;
-  -o-transition: width 3s ease-in-out;
-  transition: width 3s ease-in-out;
-}
-
-#mov1:hover {
-  width: 550px;
-  height: 800px;
-}
-
-#mov4:hover {
-  width: 320px;
-  height: 800px;
-}
-
-#mov4 {
-  transition: width 2.5s;
-}
-
 .contenedor {
   margin-top: 45px;
   height: 1000px;
@@ -368,6 +257,40 @@ div ul li {
   padding: 3%;
   width: 60%;
   transform: rotate(-5deg);
+}
+
+.fotoservi {
+  width: 100%;
+  height: 80%;
+  box-shadow: 13px 19px 8px 0px rgba(0, 0, 0, 0.7);
+  opacity: 0.9;
+}
+
+.servicios {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  color: white;
+  font-weight: bold;
+}
+.servicios h1 {
+  font-weight: 800;
+  margin: 25px 0px 50px 0px;
+  font-size: 30px;
+  text-align: justify;
+  margin-left: 80px;
+}
+.servicios ul li {
+  margin-bottom: 25px;
+}
+
+.puntoslistas {
+  padding: 20%;
+  font-size: 20px;
+}
+
+.sombra {
+  box-shadow: 13px 19px 8px 0px rgba(0, 0, 0, 0.7);
 }
 
 @media screen and (max-width: 767px) {
@@ -547,6 +470,12 @@ div ul li {
     width: 90%;
     margin: 0px;
     margin-top: 10px;
+  }
+
+  .comen1 {
+    width: 150px;
+    display: flex;
+    align-items: center;
   }
 }
 
