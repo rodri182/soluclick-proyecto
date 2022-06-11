@@ -309,6 +309,11 @@ footer i {
   margin-bottom: 20px;
 }
 
+.fondo {
+  background: rgb(138, 43, 229);
+  background: linear-gradient(90deg, rgb(138, 43, 229) 2%, rgb(124, 16, 120) 11%, rgb(124, 15, 117) 12%, rgb(121, 9, 94) 25%, rgb(245, 37, 89) 66%);
+}
+
 @media screen and (max-width: 767px) {
   .servicios h1 {
     margin-left: 15px;
