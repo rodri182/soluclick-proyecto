@@ -57,9 +57,12 @@ body {
   font-size: 30px;
   color: blueviolet;
 }
+.logotipo p {
+  margin-left: -292px;
+}
 
 .logo {
-  width: 28%;
+  width: 40%;
   margin-top: 20px;
   margin-left: 80px;
 }
@@ -96,7 +99,7 @@ footer {
   height: 100px;
   width: 100%;
   text-align: center;
-  background-color: #000000;
+  background-color: black;
 }
 footer p {
   font-size: 20px;
@@ -114,7 +117,7 @@ footer i {
   height: 40px;
   width: 40px;
   background-color: #909090;
-  border: 5px solid #000000;
+  border: 5px solid black;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -123,19 +126,6 @@ footer i {
   border-radius: 50%;
   box-shadow: 0 0 10px #7e7373;
   color: aliceblue;
-}
-
-.boton {
-  height: 40px;
-  width: 40px;
-  padding: 1%;
-  background-color: blue;
-  border-radius: 60%;
-  box-shadow: 0 0 10px #7e7373;
-  color: aliceblue;
-  border: 5px solid blue;
-  margin-left: 545px;
-  text-decoration: none;
 }
 
 .formcontenedor {
@@ -241,37 +231,42 @@ footer i {
   grid-template-columns: 1fr 1fr;
 }
 
+.textogaleria p {
+  font-size: 23px;
+}
+.textogaleria p2 {
+  font-weight: bold;
+  font-size: 23px;
+}
+
 .comen1 {
   transform: rotate(-5deg);
-  width: 60%;
+  width: 80%;
   padding: 2%;
+  margin-left: 70px;
+  margin-top: 60px;
 }
 
 .comen2 {
   padding: 3%;
-  width: 60%;
-  transform: rotate(15deg);
+  width: 80%;
+  transform: rotate(5deg);
+  margin-left: 70px;
+  margin-top: 60px;
 }
 
 .comen3 {
   padding: 3%;
-  width: 60%;
+  width: 80%;
   transform: rotate(-5deg);
-}
-
-.fotoservi {
-  width: 100%;
-  height: 80%;
-  box-shadow: 13px 19px 8px 0px rgba(0, 0, 0, 0.7);
-  opacity: 0.9;
+  margin-left: 70px;
+  margin-top: 60px;
 }
 
 .servicios {
-  position: absolute;
   top: 80px;
   left: 50px;
-  color: white;
-  font-weight: bold;
+  color: rgb(255, 255, 255);
 }
 .servicios h1 {
   font-weight: 800;
@@ -279,6 +274,7 @@ footer i {
   font-size: 30px;
   text-align: justify;
   margin-left: 80px;
+  -webkit-text-stroke: 2px rgb(140, 140, 140);
 }
 .servicios ul li {
   margin-bottom: 25px;
@@ -286,196 +282,71 @@ footer i {
 
 .puntoslistas {
   padding: 20%;
+  -webkit-text-stroke: 2px rgb(220, 220, 220);
   font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 2rem;
 }
 
 .sombra {
   box-shadow: 13px 19px 8px 0px rgba(0, 0, 0, 0.7);
 }
 
+.paddingpc2 {
+  padding: 0px 100px 0px 60px;
+}
+
+.paddingpc {
+  padding: 100px 100px 0px 50px;
+}
+
+.centradopc1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.centradopc {
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 767px) {
-  .logo {
-    width: 50%;
-    margin: 0px 0px 0px 70px;
+  .servicios h1 {
+    margin-left: 15px;
   }
 
-  .logotipo {
-    width: 100%;
-    display: flex;
-    flex-flow: column;
-  }
-
-  .logotipo p {
-    justify-content: center;
-    margin-top: 4px;
-    margin-left: 0px;
-    font-size: 50px;
-    color: blueviolet;
-    display: flex;
-  }
-
-  .iconos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -26px;
-    margin-top: 14px;
+  .paddingpc2 {
     padding: 0px;
   }
 
-  .iconos i {
-    margin-left: 30px;
-    font-size: 21px;
-    color: grey;
+  .paddingpc {
+    padding: 0px;
   }
 
-  .logotipo p2 {
-    font-size: 18px;
-  }
-
-  .banner {
-    background-size: cover;
-    background-position: center center;
-    padding: 2rem;
-    background-image: url(../imagenes/BANNER2.jpg);
-    margin: 0px;
-  }
-
-  .banner h1 {
-    font-size: 36px;
-  }
-
-  .boton {
-    margin-left: 80px;
-  }
-
-  .parrafo {
-    flex-flow: column;
-  }
-
-  .parrafo--reverse {
-    margin-left: 0px;
-  }
-
-  .nosotros {
+  .centradocelular {
     text-align: center;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    margin-top: 40px;
-    margin-left: 0px;
-    width: 100%;
-  }
-
-  .fotogrande {
-    width: 100%;
-  }
-
-  .grid {
-    margin-top: 0px;
-    display: block;
-    height: 800px;
-    width: 100%;
-    margin-left: 0px;
-    align-content: center;
-  }
-
-  .serv1 {
-    box-shadow: none;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-
-  .serv2 {
-    box-shadow: none;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-
-  .serv3 {
-    box-shadow: none;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-
-  .serv4 {
-    box-shadow: none;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-
-  .serv5 {
-    box-shadow: none;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-
-  .serv6 {
-    box-shadow: none;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-
-  .item ul {
-    text-align: center;
-  }
-
-  .item p {
-    text-align: center;
-  }
-
-  .no-flex {
-    display: grid;
-  }
-
-  nav ul {
-    display: flex;
-    gap: 2rem;
-    margin-left: 0px;
-    margin-bottom: 30px;
-    margin-top: 35px;
-  }
-
-  .galeria-titulo {
-    display: flex;
-    justify-content: center;
-    margin: 0px !important;
-  }
-
-  .imagen-celular {
-    width: 100% !important;
-    margin: 0px !important;
-  }
-
-  .tabla {
-    font-size: 13px;
-    margin: 0px;
-  }
-
-  .programdownload {
-    margin-top: 40px;
-    margin-left: 0px !important;
-    width: 100%;
-  }
-
-  .programdescription {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    text-align: center;
-    gap: 2rem;
-  }
-
-  .formcontenedor {
-    width: 90%;
-    margin: 0px;
-    margin-top: 10px;
   }
 
   .comen1 {
-    width: 150px;
-    display: flex;
-    align-items: center;
+    margin: 30px 0px 20px 0px;
+  }
+
+  .comen2 {
+    margin: 30px 0px 20px 0px;
+  }
+
+  .comen3 {
+    margin: 30px 0px 20px 0px;
+  }
+
+  .logo {
+    width: 40%;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .logotipo p {
+    margin-top: 20px;
+    margin-left: -90px;
   }
 }
 
