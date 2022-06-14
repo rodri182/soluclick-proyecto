@@ -148,131 +148,22 @@ footer {
     border-radius: 50%;
     box-shadow: 0 0 10px #7e7373;
     color: aliceblue;
-   
-}
-
-
-
-.formcontenedor {
-    margin: 100px 0px 0px 400px;
-    width: 50%;
-    padding: 1.5rem 1rem;
-    border-radius: 1rem;
-    box-shadow: 13px 19px 8px 0px $sombra1;
-    background-image: url(../imagenes/stacked-waves-haikei.png);
-    background-size: cover;
-}
-
-.tituloform {
-    font-size: 40px;
-    font-family: sans-serif;
-    text-align: center;
- 
-}
-
-
-
-.programdownload {
-    margin-top: 40px;
-    margin-left: 150px;
-    width: 80%;
-}
-
-#flecha {
-    margin-top: 15px;
-    margin-left: 15px;
-    font-size: 30px;
 }
 
 #h2tabla {
     margin: 28px 40px;
 }
 
-.fotoprograma {
-    width: 80%;
-}
-
-.fotoprograma2 {
-    width: 75%;
-}
-
-.programdescription {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-
-
-    h1 {
-        color: $negro;
-        font-size: 40px;
-        margin-bottom: 20px;
-        }
-
-        p {
-         color: rgb(78, 78, 78);
-         font-size: 20px;
-         }
-    }
 .tabla {
     width: 50%;
     height: 150px;
     margin: 67px 0px 76px 150px;
 }
-
-
-.contenedor
-{
-margin-top: 45px;
-height: 1000px;
-gap: 2.5rem;
-display: grid;
-justify-content: center;
-grid-template-columns:  1fr ;
-grid-template-rows:  1fr 1fr 1fr ;
-grid-template-areas: 
-"cuadrado1 "
-"cuadrado2 "
-"cuadrado3 "
-;
-
-     p
-    {
-        font-size: 30px;
-        text-align: start;
-    }
-
-        p2 
-        {
-            font-size: 20px;
-            font-family: sans-serif;
-            text-align: center;
-        }
-}
-.cuadrado1
-{
-    grid-area: cuadrado1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.cuadrado2
-{
-    grid-area: cuadrado2;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-}
-
 .container-xl
 {
 margin-top: 150px;
 }
-.cuadrado3
-{
-    grid-area: cuadrado3 ;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 .textogaleria
 {
    p{
@@ -344,10 +235,7 @@ margin-top: 150px;
     font-family: Arial, Helvetica, sans-serif;
     gap: 2rem;
 }
-.sombra
-{
-    box-shadow: 13px 19px 8px 0px $sombra1;
-}
+
 
 .paddingpc2
 {
@@ -369,8 +257,8 @@ margin-top: 150px;
 }
 .fondo
 {
-background: rgb(138,43,229);
-background: linear-gradient(90deg, rgba(138,43,229,1) 2%, rgba(124,16,120,1) 11%, rgba(124,15,117,1) 12%, rgba(121,9,94,1) 25%, rgba(245,37,89,1) 66%);
+background-image: url(../imagenes/Soluclickfondo.jpg);
+box-shadow: 13px 19px 8px 0px $sombra1;
 }
 
 @media screen and (max-width: 767px) 
@@ -410,6 +298,12 @@ background: linear-gradient(90deg, rgba(138,43,229,1) 2%, rgba(124,16,120,1) 11%
     {
         width: 40%;
         margin-left: 10px;
+    }
+
+    .carousel-inner img {
+       
+        padding-right: 0px;
+        padding-left: 0px; 
     }
 }
 
